@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+#scroll-card {
+    height: 700px;
+}
+
+
+/* #company-search {
+    display:inline-block;
+    max-width: 664px;
+    max-height: 44px;
+    
+} */
+

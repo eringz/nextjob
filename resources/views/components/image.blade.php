@@ -1,0 +1,1 @@
+<img {{ $attributes(['class' => 'mx-2'])}} >
