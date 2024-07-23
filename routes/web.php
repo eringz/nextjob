@@ -16,3 +16,8 @@ Route::get('/', [JobController::class,'index'])->name('index');
 Route::get('/companies', function () {
     return view('companies.index');
 });
+
+Route::get('/career/salaries', function () {
+    return view('salaries.index');
+});
+

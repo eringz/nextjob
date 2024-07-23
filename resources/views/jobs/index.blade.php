@@ -215,4 +215,7 @@
             </section>
         </div>
     </div>
+    <footer>
+        <x-footer />
+    </footer>
 </x-layout>

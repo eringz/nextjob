@@ -1,16 +1,16 @@
 <x-layout>
     <div class="grid place-content-center px-4 pb-6 w-1519">
-        <div class=" w-1044">
+        <div class="p-1 w-1044">
             <div class="mt-20 mb-16">
                 <h1 class="mb-4 text-4xl font-bold">Find great places to work</h1>
                 <h2 class="mb-6 text-xl text-black/50">Get access to millions of company reviews</h2>
                 <div class="">
                     <form action="" class="w-full">
-                        <div class="flex">
+                        <div class="flex h-[77px]">
                             <div class="flex-col flex-1 pr-2">
                                 <label for="search" class="block mb-1 font-bold">Company name or job title</label>
-                                <span id="company-search" class="flex border rounded-lg w-full">
-                                    <input type="text" class="flex-1 py-3  "> 
+                                <span id="company-search" class="flex px-1 border rounded-lg w-full has-[:focus]:border-blue has-[:focus]:border-b-4 transition-colors duration-1000">
+                                    <input type="text" class="flex-1 p-3 outline-none" /> 
                                     <span class="pr-2 place-self-center">
                                         <svg width="24px" height="24px" xmlns="http://www.w3.org/2000/svg" focusable="false" role="img" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true" class="css-v86lqu eac13zx0"><path fill-rule="evenodd" d="M13.335 14.749a6.5 6.5 0 111.414-1.414l6.105 6.104a.5.5 0 010 .707l-.708.708a.5.5 0 01-.707 0l-6.104-6.105zM14 9.5a4.5 4.5 0 11-9 0 4.5 4.5 0 019 0z" clip-rule="evenodd"></path></svg>
                                     </span>
@@ -161,4 +161,7 @@
         </div>
     {{-- <div class="flex flex-col mb-20"> --}}
     </div>
+    <footer>
+        <x-footer />
+    </footer>
 </x-layout>

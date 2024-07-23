@@ -1,5 +1,5 @@
 
-<div class="flex justify-between border-b-2 border-gray min-h-14">
+<div class="flex justify-between border-b-1 border-gray min-h-14">
     <div class="flex">
         {{-- <img class="w-1/5 h-auto p-7" src="{{ Vite::asset('resources/images/logo.svg')}}" alt="logo" class="mx-0.5 p-4" /> --}}
         <a class="px-6 py-5 mx-0.5" href="">
@@ -11,20 +11,16 @@
         <div class="pt-1  mr-8 w-auto space-x-3 self-center text-sm text-black/60 ">
             <x-nav-link href="/" :active="request()->is('/')">Home</x-nav-link>
             <x-nav-link href="/companies" :active="request()->is('companies')">Company Reviews</x-nav-link>
-            <x-nav-link>Find salaries</x-nav-link>
+            <x-nav-link href="/career/salaries">Find salaries</x-nav-link>
         </div>
     </div>
-    <div class="pt-1  pl-4 self-center space-x-3 text-sm text-black/60 ">
-        <x-nav-link href="/auth" class="text-blue font-bold">Sign in</x-nav-link>
+    <div class="pt-1  pl-4 self-center space-x-3 text-sm">
+        <a href="/auth" class="pt-7 pb-5 text-blue font-bold hover:border-b-2 hover:border-blue transition-colors duration-1000">Sign in</a>
+        {{-- <x-nav-link href="/auth" class="text-blue font-bold">Sign in</x-nav-link> --}}
         <x-divider/>
-        <x-nav-link class="px-1">Employers / Post Job</x-nav-link>
+        <a href="" class="px-1 pt-7 pb-5 text-black/60 hover:border-b-2 hover:border-blue transition-colors duration-1000">Employers / Post Job</a>
+        {{-- <x-nav-link class="px-1 text-black/40">Employers / Post Job</x-nav-link> --}}
     </div>
 
 </div>
 
-
-
-
-
-{{-- <img src="{{ Vite::asset('resources/images/logo.svg')}}" alt="logo" class="px-5 py-2 m-2"/> --}}
-{{-- <div class="space-x-10 py-7 text-md text-black/50"> --}}
