@@ -2,6 +2,14 @@
 
 use App\Http\Controllers\JobController;
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\SessionController;
+
+Route::middleware('guest')->group(function () {
+    Route::get('/auth', [SessionController::class, 'create']);
+    Route::post('/auth', [SessionController::class, 'store']);
+});
+
+Route::delete('/signout', [SessionController::class, 'destroy'])->middleware('auth');
 
 Route::get('/', [JobController::class,'index'])->name('index');
 

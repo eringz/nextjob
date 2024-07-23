@@ -1,5 +1,6 @@
 @props(['job'])
 
+
 <li class="p-4 my-4 w-471 space-y-1 border rounded-lg">
     <a href="">
         <div>
