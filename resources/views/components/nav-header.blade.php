@@ -8,7 +8,7 @@
             </svg>
         </a>
         
-        <div class="pt-1  mr-8 w-auto space-x-3 self-center text-sm text-black/60 ">
+        <div class="pt-1  mr-8 w-auto space-x-3 self-center text-sm text-black/60">
             <x-nav-link href="/" :active="request()->is('/')">Home</x-nav-link>
             <x-nav-link href="/companies" :active="request()->is('companies')">Company Reviews</x-nav-link>
             <x-nav-link href="/career/salaries" :active="request()->is('career/salaries')">Find salaries</x-nav-link>
@@ -16,9 +16,8 @@
     </div>
     <div class="pt-1  pl-4 self-center space-x-3 text-sm">
         <a href="/auth" class="pt-7 pb-5 text-blue font-bold hover:border-b-2 hover:border-blue transition-colors duration-1000">Sign in</a>
-        {{-- <x-nav-link href="/auth" class="text-blue font-bold">Sign in</x-nav-link> --}}
         <x-divider/>
-        <a href="" class="px-1 pt-7 pb-5 text-black/60 hover:border-b-2 hover:border-blue transition-colors duration-1000">Employers / Post Job</a>
+        <a href="/recruitment" class="px-1 pt-7 pb-5 text-black/60 hover:border-b-2 hover:border-blue transition-colors duration-1000">Employers / Post Job</a>
     </div>
 
 </div>
