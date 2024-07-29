@@ -189,9 +189,9 @@
 
     <section>
         <div class="flex">
-            <div class="flex bg-[#0D2D5E] text-white">
-                <div class="pl-[32px] pr-[48px] self-center place-self-end">
-                    <img class="mx-[15px]" src="{{ Vite::asset('resources/images/quote-mark.svg') }}" alt="">
+            <div class="flex bg-[#0D2D5E] h-[96%] text-white">
+                <div class="pl-[32px] pr-[48px] self-center">
+                    <img class="mx-[15px] fill-[#50FFFF]" src="{{ Vite::asset('resources/images/quote-mark.svg') }}" alt="">
                     <h4 class="text-[28px] font-semibold" >I've used other websites in the past for hiring; nothing has ever been this easy, this simple, and this effective."</h4>
                     <p>Darrell</p>
                 </div>
