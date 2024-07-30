@@ -189,7 +189,7 @@
 
     <section>
         <div class="flex">
-            <div class="flex bg-[#0D2D5E] h-[96%] text-white">
+            <div class="flex bg-[#0D2D5E] h-[90%] text-white">
                 <div class="pl-[32px] pr-[48px] self-center">
                     <img class="mx-[15px] fill-[#50FFFF]" src="{{ Vite::asset('resources/images/quote-mark.svg') }}" alt="">
                     <h4 class="text-[28px] font-semibold" >I've used other websites in the past for hiring; nothing has ever been this easy, this simple, and this effective."</h4>
@@ -201,6 +201,15 @@
                     <img src="{{ Vite::asset('resources/images/customer-testimonial.jpg') }}" alt="">
                 </div>
             </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="pt-[280px] pb-[200px] mx-[190px]">
+            <div class="mx-[270px]">
+                <h2 class="pb-[40px] text-[36px]">Get started in minutes!</h2>
+            </div>
+            <div></div>
         </div>
     </section>
 </x-employers.layout>
