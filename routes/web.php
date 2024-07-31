@@ -23,7 +23,10 @@ Route::get('/career/salaries', function () {
 });
 
 // Employers
-Route::get('recruitment', function () {
+Route::get('/recruitment', function () {
     return view('employers.index');
 });
 
+Route::get('/p/employer-setup/account-details', function () {
+    return view('employers.create');
+});

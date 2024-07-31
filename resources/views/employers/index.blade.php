@@ -7,6 +7,7 @@
                 </div>
                 <div class="pt-[12px] mt-[48px]">
                     <button class="bg-[#2557A7] px-4 py-[13px] w-[188px] text-white font-semibold rounded-lg">Post a job</button>
+                    <a href="/p/employer-setup/account-details">Post a job</a>
                 </div>
             </div>
             <div>
