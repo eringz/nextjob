@@ -33,10 +33,46 @@
         </div>
     </nav>
     <main>
+        <div class="bg-[#F3F2F1] h-screen w-full">
+
+        </div>
 
     </main>
-    <footer>
-
+    <footer class="flex justify-between p-8 text-black/70 text-sm">
+        <div>
+            <span>©2024 Indeed</span>
+        </div>
+        <ul class="flex">
+            <li class="flex">
+                <div>
+                    <a href="">Cookies privacy and terms</a>
+                </div>
+                <span>-</span>
+            </li>
+            <li class="flex">
+                <div>
+                    <a href="">Privacy center</a>
+                </div>
+                <span>-</span>
+            </li>
+            <li class="flex">
+                <div>
+                    <a href="">Security</a>
+                </div>
+                <span>-</span>
+            </li>
+            <li class="flex">
+                <div>
+                    <a href="">Billing</a>
+                </div>
+                <span>-</span>
+            </li>
+            <li class="flex">
+                <div>
+                    <a href="">Contact</a>
+                </div>
+            </li>
+        </ul>
     </footer>
     
 </body>
